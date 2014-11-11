@@ -1,0 +1,28 @@
+.top-nav-menu{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background: #777;
+}
+
+.top-nav-menu li{
+	display: inline-block;
+}
+
+.top-nav-menu li a{
+	padding: 0 17px;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'PT Sans', sans-serif;
+	text-decoration: none;
+	border-right: 2px solid #fff;
+}
+
+.top-nav-menu li:last-child a{
+	border-right: none;
+}
+
+.top-nav-menu li a:hover{
+	text-decoration: underline;
+}
