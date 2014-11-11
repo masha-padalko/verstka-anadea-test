@@ -5,22 +5,15 @@ header{
 }
 
 .header-logo{
-	display: block;
-	width: 273px;
-	height: 100px;
-	background: url("../img/header-logo.png") no-repeat;
 	float: left;
 	margin-top: 65px;
-}
-
-.header-logo:hover{
-	background-position: 0 100%;
 }
 
 .header-contacts{
 	margin-top: 40px;
 	float: right;
 }
+
 
 /*Phone numbers in header*/
 .header-contacts .phone{
@@ -29,6 +22,7 @@ header{
 	line-height: 100%;
 	color: #767676;
 	margin-bottom: 10px;
+	font-family: 'MyriadPro-Regular';
 }
 
 /*link to feeadback form*/
