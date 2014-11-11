@@ -1,17 +1,10 @@
-$(document).ready(function(){
-	topMenuResponse(); // Top menu response
-});
-
-$(document).resize(function(){
-	topMenuResponse(); // Top menu response on resize
-});
-
-function topMenuResponse(){
+(function topMenuResponse(){
 	
-	var topMenu          = $("#top-nav-menu"),
-		navResponseToggle = topMenu.find(".nav-response-toggle");
+	var topMenu = $("#top-nav-menu"),
+	buttonResponseToggle = topMenu.find(".nav-response-toggle");
+	navResponseToggle = topMenu.find(">ul");
 		
-	navResponseToggle.on('click', function(){
-		$(".top-nav-menu>ul").slideToggle();
+	buttonResponseToggle.on('click', function(){
+		navResponseToggle.slideToggle();
 	});
-}
+})();
