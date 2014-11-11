@@ -20,13 +20,38 @@ body{
   max-width: 980px;
   padding: 0 10px;
   margin: 0 auto;
+  position: relative;
 }
 
-.clearfix:after {
+.clr:after {
   visibility: hidden;
   display: block;
   font-size: 0;
   content: " ";
   clear: both;
   height: 0;
+}
+
+/*bread crumbs*/
+section.bread-crumbs li{
+  display: inline-block;
+}
+
+section.bread-crumbs li a{
+  color: #767676;
+  font-size: 14px;
+}
+
+section.bread-crumbs li a:hover{
+  text-decoration: none;
+}
+
+section.bread-crumbs li:after{
+  content: ' /';
+  color: #767676;
+  font-size: 14px;
+}
+
+section.bread-crumbs li:last-child:after{
+  content: none;
 }

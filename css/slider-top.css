@@ -1,0 +1,34 @@
+.top-slider {
+  text-align: center;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.top-slider li{
+  display: inline-block;
+}
+
+.top-slider img{
+  max-width: 100%;
+}
+
+.top-slider .left-arrow, .top-slider .right-arrow{
+  width: 34px;
+  height: 61px;
+  background: url("../img/sprite.png") 0 0 no-repeat;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  cursor: pointer;
+}
+
+.top-slider .left-arrow:hover, .top-slider .right-arrow:hover{
+  opacity: .8;
+}
+
+.top-slider .right-arrow{
+  left: auto;
+  right: 20px;
+  background-position: -44px 0;
+}

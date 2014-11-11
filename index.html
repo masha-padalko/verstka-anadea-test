@@ -16,13 +16,14 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/top-nav-menu.css">
+    <link rel="stylesheet" href="css/slider-top.css">
   </head>
   <body>
   <!-- Header -->
     <header>
-      <div class="center-container clearfix">
+      <div class="center-container clr">
         <a href="#"><img src="img/header-logo.png" class="header-logo" alt="logo" width="273" height="100"></a>
-        <div class="header-contacts clearfix">
+        <div class="header-contacts clr">
           <span class="phone">+8(050) 555-12-12</span>
           <span class="phone">+8(050) 555-12-12</span>
           <a href="#" class="feedback-form">Обратная связь</a>
@@ -41,7 +42,28 @@
       <div class="nav-response-toggle"></div>
     </nav>
   <!-- Main slider -->
-  <section class="top-slider"></section>
+  <section class="top-slider clr" id="slideshow">
+    <ul>
+      <li><img src="img/slider/slider1.jpg" alt=""></li>
+      <li><img src="img/slider/slider2.jpg" alt=""></li>
+    </ul>
+    <div class="left-arrow"></div>
+    <div class="right-arrow"></div>
+  </section>
+
+  <section class="bread-crumbs">
+    <ul class="center-container">
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Каталог</a></li>
+      <li>Бытовая техника</li>
+    </ul>
+  </section>
+
+  <section class="main-section">
+    <aside class="left-sidebar"></aside>
+    <article class="right-content"></article>
+
+  </section>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
