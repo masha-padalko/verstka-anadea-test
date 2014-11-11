@@ -1,0 +1,13 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #767676;
+}
+
+.center-container{
+	max-width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
