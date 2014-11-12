@@ -15,6 +15,11 @@
   opacity: 0;
 }
 
+.top-slider li span{
+  z-index: 10;
+  position: relative;
+}
+
 .top-slider li.active{
   opacity: 1;
   -webkit-transition: opacity .9s ease-in-out;

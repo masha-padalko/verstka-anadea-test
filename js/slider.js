@@ -1,3 +1,13 @@
+var imgs = $("#slideshow").find("img");
+
+imgs.load(function(){
+  imgs.each(function(){
+    this.style.marginLeft = -(this.width/2) + 'px'
+  });
+});
+
+
+
 $(function() {
   var slideShow = $('#slideshow'),
       firstSlide = slideShow.find("li:first-child"),
@@ -5,7 +15,6 @@ $(function() {
       interval = 4000,
       timer;
 
-  slideshowImgCenter();
   slideshowTimeOut();
   slideshow();
 
@@ -20,12 +29,7 @@ $(function() {
     })
   }
 
-  function slideshowImgCenter(){
-    var imgs = $("#slideshow").find("img");
-    imgs.each(function(){
-      this.style.marginLeft = -(this.width/2) + 'px'
-    });
-  }
+
 
   function slideshowTimeOut(){
     setMyInterval();
