@@ -1,0 +1,58 @@
+.leftblock {
+  width: 180px;
+  float: left;
+}
+
+.leftblock .menu{
+  margin-bottom: 100px;
+}
+
+.leftblock .menu li{
+  margin-bottom: 10px;
+}
+
+.leftblock .menu a{
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.leftblock .menu a:hover{
+  text-decoration: underline;
+}
+
+.leftblock .dropdown-menu {
+  display: none;
+  margin-left: 26px;
+}
+
+.leftblock .menu li:hover .dropdown-menu{
+  display: block;
+}
+
+.leftblock .dropdown-menu li{
+  list-style: disc;
+  margin-bottom: 0px;
+}
+
+.leftblock .dropdown-menu a{
+  font-size: 14px;
+  margin-left: -5px;
+}
+
+.leftblock .dropdown-menu a:hover{
+  color: #000;
+}
+
+/*price list link with icon*/
+
+.price-list-link{
+  text-align: center;
+  display: block;
+  padding-top: 120px;
+  color: #444;
+  font-size: 30px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  background: url("../img/price-list-icon.png") 43px 0 no-repeat;
+}

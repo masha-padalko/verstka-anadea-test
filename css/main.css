@@ -16,6 +16,10 @@ body{
   color: #767676;
 }
 
+a{
+  color: #767676;
+}
+
 .center-container{
   max-width: 980px;
   padding: 0 10px;
@@ -38,7 +42,6 @@ section.bread-crumbs li{
 }
 
 section.bread-crumbs li a{
-  color: #767676;
   font-size: 14px;
 }
 
@@ -54,4 +57,9 @@ section.bread-crumbs li:after{
 
 section.bread-crumbs li:last-child:after{
   content: none;
+}
+
+/*Main section*/
+.main-section{
+  padding-top: 25px;
 }

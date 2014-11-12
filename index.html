@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/top-nav-menu.css">
     <link rel="stylesheet" href="css/slider-top.css">
+    <link rel="stylesheet" href="css/sidebar.css">
   </head>
   <body>
   <!-- Header -->
@@ -44,11 +45,15 @@
   <!-- Main slider -->
   <section class="top-slider clr" id="slideshow">
     <ul>
-      <li><img src="img/slider/slider1.jpg" alt=""></li>
+      <li class='active'><img src="img/slider/slider1.jpg" alt=""></li>
       <li><img src="img/slider/slider2.jpg" alt=""></li>
+      <li><img src="img/slider/slider3.jpg" alt=""></li>
+      <li><img src="img/slider/slider4.jpg" alt=""></li>
     </ul>
-    <div class="left-arrow"></div>
-    <div class="right-arrow"></div>
+    <div class="arrow-wrapper center-container">
+      <div class="left-arrow"></div>
+      <div class="right-arrow"></div>
+    </div>
   </section>
 
   <section class="bread-crumbs">
@@ -59,9 +64,26 @@
     </ul>
   </section>
 
-  <section class="main-section">
-    <aside class="left-sidebar"></aside>
-    <article class="right-content"></article>
+  <section class="main-section center-container clr">
+    <aside class="leftblock">
+      <ul class="menu">
+        <li><a href="#">Автомобили</a></li>
+        <li><a href="#">Бытовая техника</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Микроволновки</a></li>
+            <li><a href="#">Холодильники</a></li>
+            <li><a href="#">Посудомоечные машины олодильники олоди</a></li>
+            <li><a href="#">Чайники</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Мобильная техника</a></li>
+        <li><a href="#">Компьютеры</a></li>
+        <li><a href="#">Одежда</a></li>
+        <li><a href="#">Недвижимость</a></li>
+      </ul>
+      <a href="#" class="price-list-link">Прайс-лист</a>
+    </aside>
+    <article class="centerblock"></article>
 
   </section>
 
