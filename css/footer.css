@@ -1,0 +1,33 @@
+footer{
+  width: 100%;
+  padding: 50px 0;
+  background: #777;
+}
+
+footer span, footer a{
+  color: #fff;
+  display: block;
+}
+
+footer a:hover{
+  text-decoration: none;
+}
+
+footer .copyright, footer ul{
+  float: left;
+  margin-right: 150px;
+}
+
+footer .company-info{
+  width: 185px;
+  float: right;
+}
+
+footer .company-info .icon{
+  width: 26px;
+  height: 26px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 7px;
+  background: url("../img/sprite.png") 0px -72px no-repeat;
+}
