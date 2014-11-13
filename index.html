@@ -16,13 +16,15 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/top-nav-menu.css">
+    <link rel="stylesheet" href="css/slider-top.css">
+    <link rel="stylesheet" href="css/sidebar.css">
   </head>
   <body>
   <!-- Header -->
     <header>
-      <div class="center-container clearfix">
+      <div class="center-container clr">
         <a href="#"><img src="img/header-logo.png" class="header-logo" alt="logo" width="273" height="100"></a>
-        <div class="header-contacts clearfix">
+        <div class="header-contacts clr">
           <span class="phone">+8(050) 555-12-12</span>
           <span class="phone">+8(050) 555-12-12</span>
           <a href="#" class="feedback-form">Обратная связь</a>
@@ -41,7 +43,70 @@
       <div class="nav-response-toggle"></div>
     </nav>
   <!-- Main slider -->
-  <section class="top-slider"></section>
+  <section class="top-slider clr" id="slideshow">
+    <ul>
+      <li class='active'>
+        <img src="http://placehold.it/1620x400" srcset="http://placehold.it/780x400 780w, http://placehold.it/1024x400 1024w,
+               http://placehold.it/1366x400 1366w, http://placehold.it/1920x400 1920w">
+        <span>Slide 1</span>
+      </li>
+      <li>
+        <img src="http://placehold.it/1620x400" srcset="http://placehold.it/780x400 780w, http://placehold.it/1024x400 1024w,
+               http://placehold.it/1366x400 1366w, http://placehold.it/1920x400 1920w">
+        <span>Slide 2</span>
+      </li>
+      <li>
+        <img src="http://placehold.it/1620x400" srcset="http://placehold.it/780x400 780w, http://placehold.it/1024x400 1024w,
+               http://placehold.it/1366x400 1366w, http://placehold.it/1920x400 1920w">
+        <span>Slide 3</span>
+      </li>
+      <li>
+        <img src="http://placehold.it/1620x400" srcset="http://placehold.it/780x400 780w, http://placehold.it/1024x400 1024w,
+               http://placehold.it/1366x400 1366w, http://placehold.it/1920x400 1920w">
+        <span>Slide 4</span>
+      </li>
+      <li>
+       <img src="http://placehold.it/1620x400" srcset="http://placehold.it/780x400 780w, http://placehold.it/1024x400 1024w,
+               http://placehold.it/1366x400 1366w, http://placehold.it/1920x400 1920w">
+        <span>Slide 5</span>
+      </li>
+    </ul>
+    <div class="arrow-wrapper center-container">
+      <div class="left-arrow"></div>
+      <div class="right-arrow"></div>
+    </div>
+  </section>
+
+  <section class="bread-crumbs">
+    <ul class="center-container">
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Каталог</a></li>
+      <li>Бытовая техника</li>
+    </ul>
+  </section>
+
+  <section class="main-section center-container clr">
+    <aside class="leftblock">
+      <ul class="menu">
+        <li><a href="#">Автомобили</a></li>
+        <li><a href="#">Бытовая техника</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Микроволновки</a></li>
+            <li><a href="#">Холодильники</a></li>
+            <li><a href="#">Посудомоечные машины олодильники олоди</a></li>
+            <li><a href="#">Чайники</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Мобильная техника</a></li>
+        <li><a href="#">Компьютеры</a></li>
+        <li><a href="#">Одежда</a></li>
+        <li><a href="#">Недвижимость</a></li>
+      </ul>
+      <a href="#" class="price-list-link">Прайс-лист</a>
+    </aside>
+    <article class="centerblock"></article>
+
+  </section>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
