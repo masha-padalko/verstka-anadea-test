@@ -1,0 +1,124 @@
+body.open-dialog{
+  overflow: hidden;
+}
+
+.dark-bg{
+  background: rgba(0 ,0 ,0 , .5);
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  display: none;
+}
+
+#dialog{
+  width: 355px;
+  padding: 35px 55px 25px 55px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -232px;
+  top: 150px;
+  text-align: center;
+  z-index: 999;
+  display: none;
+}
+
+#dialog .title{
+  display: block;
+  text-transform: uppercase;
+  color: #535353;
+  font-size: 24px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#dialog fieldset{
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#dialog fieldset.error input{
+  border: 1px solid #ff8383;
+  -webkit-box-shadow: inset 0px 0px 13px 0px rgba(228, 106, 106, 0.75);
+  -moz-box-shadow:    inset 0px 0px 13px 0px rgba(228, 106, 106, 0.75);
+  box-shadow:         inset 0px 0px 13px 0px rgba(228, 106, 106, 0.75);
+}
+
+#dialog fieldset.check input{
+  border: 1px solid #1c852f;
+  -webkit-box-shadow: inset 0px 0px 13px 0px rgba(28, 133, 47, 0.75);
+  -moz-box-shadow:    inset 0px 0px 13px 0px rgba(28, 133, 47, 0.75);
+  box-shadow:         inset 0px 0px 13px 0px rgba(28, 133, 47, 0.75);
+}
+
+#dialog fieldset label{
+  display: block;
+  font-size: 14px;
+}
+
+#dialog fieldset input, #dialog fieldset textarea{
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #c3c3c3;
+  width: 320px;
+  font-size: 14px;
+  color: #767676;
+}
+
+#dialog fieldset textarea{
+  padding: 10px;
+  height: 120px;
+  resize: none;
+}
+
+#dialog .submit{
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  background: #777;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}
+
+#dialog .submit:hover, #dialog .close:hover{
+  opacity: .8;
+}
+
+#dialog .close{
+  width: 27px;
+  height: 27px;
+  background: #777 url("../img/sprite.png") -88px -29px no-repeat;
+  position: absolute;
+  top: -27px;
+  right: -27px;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #dc7f7f;
+  font-style: italic;
+  font-size: 14px;
+}
+:-moz-placeholder {
+  color: #dc7f7f;
+  font-style: italic;
+  font-size: 14px;
+}
+::-moz-placeholder {
+  color: #dc7f7f;
+  font-style: italic;
+  font-size: 14px;
+}
+:-ms-input-placeholder {
+  color: #dc7f7f;
+  font-style: italic;
+  font-size: 14px;
+}

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/feedback.css">
     <link rel="stylesheet" href="css/top-nav-menu.css">
     <link rel="stylesheet" href="css/slider-top.css">
     <link rel="stylesheet" href="css/sidebar.css">
@@ -158,11 +159,36 @@
       </div>
     </div>
   </footer>
+  <div class="dark-bg"></div>
+  <div id="dialog">
+    <span class="title">Обратная связь</span>
+    <form class="feedback">
+      <fieldset>
+        <label>Ваше имя *</label>
+        <input type="text">
+      </fieldset>
+      <fieldset>
+        <label>Телефон *</label>
+        <input type="text">
+      </fieldset>
+      <fieldset>
+        <label>Email *</label>
+        <input type="text">
+      </fieldset>
+      <fieldset>
+        <label>Сообщение</label>
+        <textarea></textarea>
+      </fieldset>
+      <button type="submit" class="submit">ОТПРАВИТЬ</button>
+    </form>
+    <div class="close"></div>
+  </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/mobile-menu.js"></script>
     <script src="js/pagination.js"></script>
+    <script src="js/feedback.js"></script>
   </body>
 </html>
