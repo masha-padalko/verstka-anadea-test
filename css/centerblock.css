@@ -1,0 +1,90 @@
+.centerblock{
+  max-width: 795px;
+  float: right;
+}
+
+.wrapper-prod{
+  margin-bottom: 67px;
+}
+
+.wrap-products{
+  margin-bottom: 10px;
+  height: 800px;
+  overflow: hidden;
+}
+
+.centerblock .product-item{
+  width: 210px;
+  height: 340px;
+  background: #dcdcdc;
+  padding: 20px;
+  position: relative;
+  margin: 0px 7px 20px 7px;
+  float: left;
+  display: block;
+  text-decoration: none;
+}
+
+.centerblock .product-item:hover{
+  background: #d1d1d1;
+}
+
+.centerblock .product-item img{
+  margin-bottom: 20px;
+}
+
+.centerblock .product-item .title{
+  display: block;
+  height: 35px;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.centerblock .product-item .price{
+  color: #444;
+  font-size: 28px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.centerblock .product-item .to-cart{
+  width: 28px;
+  height: 21px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: url("../img/sprite.png") -84px 0 no-repeat;
+}
+
+/*pagination*/
+.pagination {
+  width: 100%;
+  text-align: center;
+}
+
+.pagination li{
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.pagination li.active{
+  font-size: 18px;
+}
+
+.wrap-info{
+  border-top: 1px solid #777;
+}
+
+.info{
+  width: 46%;
+  float: left;
+  padding-top: 30px;
+}
+
+.info:first-child{
+  margin-right: 8%;
+}
