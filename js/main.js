@@ -1,10 +1,10 @@
-(function topMenuResponse(){
-  
-  var topMenu = $("#top-nav-menu"),
-  buttonResponseToggle = topMenu.find(".nav-response-toggle");
-  navResponseToggle = topMenu.find(">ul");
-    
-  buttonResponseToggle.on('click', function(){
-    navResponseToggle.slideToggle();
-  });
-})();
+// Clone product items
+var productItem = $(".wrap-products").find(".product-item");
+
+$.fn.duplicate = function(count, appendTo) {
+  for ( var i = 0; i < count; i++ ) {
+      productItem.clone().appendTo(appendTo);
+  }
+};
+
+productItem.duplicate(20, ".wrap-products");

@@ -25,8 +25,12 @@
   margin-left: 26px;
 }
 
-.leftblock .menu li:hover .dropdown-menu{
+.leftblock .menu li:hover .dropdown-menu, .leftblock .menu li.active .dropdown-menu{
   display: block;
+}
+
+.leftblock .menu li.active > a{
+  text-decoration: underline;
 }
 
 .leftblock .dropdown-menu li{
@@ -39,8 +43,10 @@
   margin-left: -5px;
 }
 
-.leftblock .dropdown-menu a:hover{
+.leftblock .dropdown-menu li:hover a, .leftblock .dropdown-menu li.active a{
   color: #000;
+  text-decoration: underline;
+
 }
 
 /*price list link with icon*/
