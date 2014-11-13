@@ -25,6 +25,10 @@
   text-decoration: none;
 }
 
+.centerblock .product-item.active{
+  display: block;
+}
+
 .centerblock .product-item:hover{
   background: #d1d1d1;
 }

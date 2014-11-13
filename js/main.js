@@ -3,7 +3,7 @@ var productItem = $(".wrap-products").find(".product-item");
 
 $.fn.duplicate = function(count, appendTo) {
   for ( var i = 0; i < count; i++ ) {
-      productItem.clone().appendTo(appendTo);
+      $(this).clone().appendTo(appendTo);
   }
 };
 
