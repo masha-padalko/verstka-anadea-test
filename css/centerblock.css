@@ -1,6 +1,8 @@
 .centerblock{
   max-width: 795px;
   float: right;
+  position: relative;
+  z-index: 2;
 }
 
 .wrapper-prod{
@@ -14,8 +16,8 @@
 }
 
 .centerblock .product-item{
-  width: 210px;
-  height: 340px;
+  width: 250px;
+  height: 380px;
   background: #dcdcdc;
   padding: 20px;
   position: relative;
@@ -23,6 +25,7 @@
   float: left;
   display: block;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .centerblock .product-item.active{
@@ -34,7 +37,10 @@
 }
 
 .centerblock .product-item img{
+  display: block;
+  margin: 0 auto;
   margin-bottom: 20px;
+  max-width: 212px;
 }
 
 .centerblock .product-item .title{

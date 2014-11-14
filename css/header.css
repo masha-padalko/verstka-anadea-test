@@ -1,6 +1,7 @@
 header{
   width: 100%;
-  min-height: 230px;
+  min-height: 220px;
+  padding-bottom: 10px;
   background: #dcdcdc;
 }
 

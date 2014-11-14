@@ -21,7 +21,7 @@ a{
 }
 
 .center-container{
-  max-width: 980px;
+  max-width: 1010px;
   padding: 0 10px;
   margin: 0 auto;
   position: relative;
@@ -61,5 +61,8 @@ section.bread-crumbs li:last-child:after{
 
 /*Main section*/
 .main-section{
-  padding: 25px 0 180px 0;
+ padding: 25px 10px 180px 10px;
+ position: relative;
+ box-sizing: border-box;
+ width: 100%;
 }

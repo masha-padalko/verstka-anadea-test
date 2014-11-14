@@ -52,7 +52,7 @@
 
 /*Mobile menu*/
 
-@media (max-width: 1100px) {
+@media (max-width: 1010px) {
   .top-nav-menu ul{
     display: none;
   }

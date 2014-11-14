@@ -1,0 +1,18 @@
+@media (max-width: 1010px){
+  .centerblock .product-item{
+    width: 47%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 690px){
+  .centerblock .product-item{
+    width: 100%;
+
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .product-item img{
+    width: 100%;
+  }
+}
