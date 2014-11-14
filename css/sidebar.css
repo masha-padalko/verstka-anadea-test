@@ -1,6 +1,7 @@
 .leftblock {
-  width: 180px;
+  width: 170px;
   float: left;
+  padding-left: 10px;
 }
 
 .leftblock .menu{
@@ -49,6 +50,7 @@
 
 }
 
+
 /*price list link with icon*/
 
 .price-list-link{
@@ -61,4 +63,80 @@
   font-weight: 700;
   text-decoration: none;
   background: url("../img/price-list-icon.png") 43px 0 no-repeat;
+}
+
+/*sidebar response*/
+.menu-response-toggle{
+  display: none;
+  width: 40px;
+  height: 40px;
+  background: url("../img/sidebar-menu-respons.png") no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  -moz-transition: all 100ms ease;
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+}
+
+.menu-response-toggle:hover{
+  webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media (max-width: 1010px){
+  .leftblock {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    z-index: 1;
+    display: none;
+  }
+
+  .menu-response-toggle{
+    display: block;
+  }
+
+  .centerblock{
+    max-width: 100%;
+    -webkit-transition: all 300ms ease 0;
+    -moz-transition: all 300ms ease 0;
+    -o-transition: all 300ms ease 0;
+    transition: all 300ms ease 0;
+
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .main-section.push-wrap .centerblock {
+    -webkit-transform: translate(180px, 0);
+    -moz-transform: translate(180px, 0);
+    -ms-transform: translate(180px, 0);
+    -o-transform: translate(180px, 0);
+    transform: translate(180px, 0);
+
+    -webkit-transform: translate3d(180px, 0, 0);
+    -moz-transform: translate3d(180px, 0, 0);
+    -ms-transform: translate3d(180px, 0, 0);
+    -o-transform: translate3d(180px, 0, 0);
+    transform: translate3d(180px, 0, 0);
+  }
+
+  .main-section.push-wrap{
+    overflow: hidden;
+  }
+
+  .main-section.push-wrap .leftblock{
+    display: block;
+  }
 }

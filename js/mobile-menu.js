@@ -9,3 +9,15 @@
   });
 
 })();
+
+
+(function sidebarMenuResponse(){
+
+  var leftMenu = $(".leftblock"),
+  buttonResponseToggle = $(".menu-response-toggle");
+
+  buttonResponseToggle.on('click', function(){
+    $(".main-section").toggleClass("push-wrap");
+  });
+
+})();
